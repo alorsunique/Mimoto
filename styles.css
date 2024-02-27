@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 #Banner{
@@ -15,10 +16,10 @@ h1{
 }
 
 #Mimoto{
-    font-family: sans-serif;
+    
 }
 
-#Bible_Verse{
+#verse{
     font-family: sans-serif;
     text-align: center;
 }
@@ -64,4 +65,27 @@ h1{
     bottom: 0; 
     left: 0; 
     z-index: 10;
+}
+
+.about_container{
+    display: flex;
+}
+
+.about_content_01{
+    flex: 1;
+    padding: 1.25%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about_content_02{
+    flex: 1;
+    padding: 1.25%;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Align content horizontally to the center */
+    align-items: center;
+}
+
+#about_pic{
+    width: 100%;
 }
