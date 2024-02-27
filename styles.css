@@ -27,5 +27,36 @@ h1{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid yellow;
 }
 
+
+
+.Side_Container{
+    display: flex; 
+}
+
+.Side_Content_01{
+    flex: 1;
+    width: auto;
+    border: 2px solid yellow;
+}
+
+.Side_Content_02{
+    flex: 1;
+    width: auto;
+    border: 2px solid yellow;
+}
+
+.Side_Content_03{
+    flex: 1;
+    width: auto;
+    border: 2px solid yellow;
+}
+
+#footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
