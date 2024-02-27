@@ -1,0 +1,31 @@
+
+body{
+    margin: 0;
+}
+
+#Banner{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    object-position: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+#Mimoto{
+    font-family: sans-serif;
+}
+
+#Bible_Verse{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#Center_Content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
