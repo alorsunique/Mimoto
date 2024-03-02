@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-#namespace {}
+
 
 #verse {
     font-family: sans-serif;
@@ -124,16 +124,21 @@ h1 {
 }
 
 .animated-text {
-    opacity: 0; /* Start with opacity 0 to hide the text */
-    animation: fadeInAnimation 2s forwards; /* Apply the animation */
+    opacity: 0;
+    /* Start with opacity 0 to hide the text */
+    animation: fadeInAnimation 2s forwards;
+    /* Apply the animation */
 }
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0; /* Start with opacity 0 */
+        opacity: 0;
+        /* Start with opacity 0 */
     }
+
     100% {
-        opacity: 1; /* End with opacity 1 */
+        opacity: 1;
+        /* End with opacity 1 */
     }
 }
 
@@ -146,9 +151,12 @@ h1 {
 /* Keyframe animation definition for individual words */
 @keyframes fadeInWord {
     0% {
-        opacity: 0; /* Start with opacity 0 */
+        opacity: 0;
+        /* Start with opacity 0 */
     }
+
     100% {
-        opacity: 1; /* End with opacity 1 */
+        opacity: 1;
+        /* End with opacity 1 */
     }
 }
