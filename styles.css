@@ -122,3 +122,33 @@ h1 {
     opacity: 1;
     /* Show active slide */
 }
+
+.animated-text {
+    opacity: 0; /* Start with opacity 0 to hide the text */
+    animation: fadeInAnimation 2s forwards; /* Apply the animation */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+
+.animated-text span {
+    display: inline-block;
+    animation: fadeInWord 2s forwards;
+    opacity: 0;
+}
+
+/* Keyframe animation definition for individual words */
+@keyframes fadeInWord {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
